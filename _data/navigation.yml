@@ -1,0 +1,8 @@
+- name: Hjem
+  link: /
+- name: Prosjekter
+  link: /#projects
+- name: Om meg
+  link: /about.html
+- name: Kontakt
+  link: /contact.html

@@ -1,0 +1,12 @@
+<header id="header">
+    <img id='logo' src="https://logoipsum.com/logo/logo-3.svg"> 
+     <nav id="navbar">
+       <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}">
+          {{ item.name }}
+        </a></li>
+      {% endfor %}
+       </ul>
+     </nav>
+   </header>

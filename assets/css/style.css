@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main_content {
+  margin: 0 auto;
+  width: 60vw;
+}
+
+#header { 
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  max-height: 100%;
+  width: auto;
+}
+
+#navbar {
+  font-size: 18px;
+}
+
+#navbar ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #5E6472;
+  overflow: hidden;
+  background: linear-gradient(to right, #AED9E0, #AED9E0 50%, #5E6472 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+#navbar a:hover {
+  background-position: 0 100%;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  color: #5E6472;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#welcome-section h1 {
+  font-size: 45px;
+}
+
+#welcome-section em {
+  color: #AED9E0;
+  font-style: normal;
+}
+
+.random-text:after{
+	content: '';
+	animation: changetext 50s infinite;	
+}
+
+@keyframes changetext {
+	0% {content: 'designer'}
+	10% {content: 'pappa'}
+	20% {content: 'gamer'}
+	40% {content: 'fotballsupporter'}
+	50% {content: 'kokk'}
+	60% {content: 'trollmann'}
+	70% {content: 'samboer'}
+	80% {content: 'quizmaster'}
+	90% {content: 'turkompis'}
+	100% {content: 'filmfotograf'}
+}
+
+#icon-downarrow-main {
+  overflow: hidden;
+  background: linear-gradient(to right, #5E6472, #5E6472 50%, #AED9E0 50%);
+  clip-path: polygon(24% 30%, 50% 55%, 76% 30%, 100% 52%, 50% 100%, 0 52%);
+  width: 50px;
+  height: 50px;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  margin-left: 9em;
+}
+
+#icon-downarrow-main:hover {
+  background-position: 0 100%;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 100px 1rem 1rem 1rem;
+}
+
+.project-tile {
+  height: 250px;
+  margin: 0 0.5rem 0.5rem 0;
+  flex: 1 0 auto;
+  display: block;
+  position: relative;
+}
+
+.project-tile:nth-child(4n+1) {
+  width: 250px;
+}
+.project-tile:nth-child(4n+2) {
+  width: 325px;
+}
+.project-tile:nth-child(4n+3) {
+  width: 180px;
+}
+.project-tile:nth-child(4n+4) {
+  width: 380px;
+}
+
+.thumbnail {
+  object-fit: cover;
+  max-width: 100%;
+  min-height: 100%;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text-container {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: #FFA69E; /* prøve å randomize denne mellom utvalg farger senere */
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.project-tile:hover .text-container {
+  opacity: 1;
+}
+
+.project-title {
+  color: white;
+}
+
+.project-description {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
