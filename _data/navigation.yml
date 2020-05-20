@@ -1,8 +1,8 @@
 - name: Hjem
   link: /
 - name: Prosjekter
-  link: /index.md#projects
+  link: /index.html#projects
 - name: Om meg
-  link: /about.md
+  link: /about.html
 - name: Kontakt
-  link: /contact.md
+  link: /contact.html
