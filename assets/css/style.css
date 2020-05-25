@@ -183,3 +183,7 @@ body {
     flex-direction: column;
   }
 }
+
+.profile-picture {
+  border-radius: 25%;
+}
