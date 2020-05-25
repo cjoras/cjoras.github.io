@@ -186,4 +186,10 @@ body {
 
 .profile-picture {
   border-radius: 25%;
+  height: 500px;
+  width: 0 auto;
+}
+
+.flex-container {
+  display: flex;
 }
