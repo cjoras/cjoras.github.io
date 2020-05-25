@@ -10,6 +10,14 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+::selection {
+  background: #AED9E0;
+}
+::-moz-selection {
+  background: #AED9E0;
+}
+
+
 .main_content {
   margin: 0 auto;
   width: 60vw;
@@ -62,15 +70,6 @@ body {
   justify-content: flex-start;
   flex-direction: column;
 }
-
-#welcome-section::selection {
-  background: #AED9E0;
-}
-
-#welcome-section::-moz-selection {
-  background: #AED9E0;
-}
-
 
 #welcome-section h1 {
   font-size: 45px;
@@ -192,4 +191,5 @@ body {
 
 .flex-container {
   display: flex;
+  flex-wrap: nowrap;
 }
