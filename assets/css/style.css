@@ -12,9 +12,11 @@ body {
 
 ::selection {
   background: #AED9E0;
+  color: #5E6472;
 }
 ::-moz-selection {
   background: #AED9E0;
+  color: #5E6472;
 }
 
 
@@ -184,12 +186,12 @@ body {
 }
 
 .profile-picture {
-  border-radius: 25%;
-  height: 500px;
+  border-radius: 50%;
+  height: 350px;
   width: 0 auto;
 }
 
-.flex-container {
+.flex-wrapper {
   display: flex;
   flex-wrap: nowrap;
 }
