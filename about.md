@@ -8,7 +8,7 @@ layout: default
 
 <p>Hei, jeg er Christer Jorås. Jeg er en front-end utvikler fra Sande. Jeg er opptatt av å bygge responsive og pene løsninger som er tilgjengelig for alle. Om du ønsker å se på mer av arbeidet mitt kan du finne det på <a href='https://github.com/cjoras/' target='_blank'>GitHub</a>, <a href='https://codepen.io/christerjor' target='_blank'>CodePen</a>, eller <a href='https://www.freecodecamp.org/fccf5ed30b3-005b-4b17-ae52-95b78845c89b' target='_blank'>freeCodeCamp</a>. Om du ønsker å ta kontakt, gjør det gjerne på <a href='' target='blank'>LinkedIn</a>, eller på e-post christer.joras@gmail.com.</p>
 
-<img class='profile-picture' src='\assets\images\RemoteWork2.png'/>
+<img class='profile-picture' src='\assets\images\profilepic.jpg'/>
 
 </div>
 
